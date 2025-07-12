@@ -1,5 +1,5 @@
 ##############################################################################
-Chapter
+Chapter 12 TFT Touch Drawing
 ##############################################################################
 
 After learning this chapter, you will be able to draw freely on the screen.
