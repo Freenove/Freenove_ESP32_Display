@@ -40,16 +40,21 @@ The ADC pin on this board has a voltage sampling range of 0~3.3V. However, when 
 
 To ensure accurate voltage measurement and ADC pin protection, the circuit employs a resistive voltage divider that scales the battery voltage down by a factor of 0.5. At a full charge (4.2V), the divided voltage at the ADC input is 2.1V, well within the safe operating range. This design enables reliable battery monitoring while preventing overvoltage damage to the ADC.
 
-:red:`Please note that this kit does not include a lithium battery, please buy one yourself. For more information about battery, please refer to` :ref:`Battery <Battery>`.
+:combo:`red font-bolder:Please note that this kit does not include a lithium battery, please buy one yourself. For more information about battery, please refer to` :ref:`Battery <Battery>`.
 
 Component List 
 ========================
 
-+----------------------------+----------------+
-| Freenove ESP32 Display x 1 | USB cable x1   |
-|                            |                |
-| |Chapter01_02|             | |Chapter01_03| |
-+----------------------------+----------------+
+.. table:: 
+    :align: center
+    :width: 80%
+    :class: table-line
+
+    +----------------------------+----------------+
+    | Freenove ESP32 Display x 1 | USB cable x1   |
+    |                            |                |
+    | |Chapter01_02|             | |Chapter01_03| |
+    +----------------------------+----------------+
 
 .. |Chapter01_02| image:: ../_static/imgs/1_Serial/Chapter01_02.png
 .. |Chapter01_03| image:: ../_static/imgs/1_Serial/Chapter01_03.png

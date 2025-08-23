@@ -8,15 +8,20 @@ Project 17.1 LVGL Music
 Component List 
 =============================
 
-+----------------------------+----------------+
-| Freenove ESP32 Display x 1 | USB cable x1   |
-|                            |                |
-| |Chapter01_02|             | |Chapter01_03| |
-+----------------------------+----------------+
-| Stylus x 1                                  |
-|                                             |
-| |Chapter11_00|                              |
-+----------------------------+----------------+
+.. table:: 
+    :align: center
+    :width: 80%
+    :class: table-line
+
+    +----------------------------+----------------+
+    | Freenove ESP32 Display x 1 | USB cable x1   |
+    |                            |                |
+    | |Chapter01_02|             | |Chapter01_03| |
+    +----------------------------+----------------+
+    | Stylus x 1                                  |
+    |                                             |
+    | |Chapter11_00|                              |
+    +----------------------------+----------------+
 
 .. |Chapter01_02| image:: ../_static/imgs/1_Serial/Chapter01_02.png
 .. |Chapter01_03| image:: ../_static/imgs/1_Serial/Chapter01_03.png
@@ -24,7 +29,7 @@ Component List
 
 .. note::
     
-    :red:`This kit does not include speaker, SD card, or SD card reader. Please buy them yourself!`
+    :combo:`red font-bolder:This kit does not include speaker, SD card, or SD card reader. Please buy them yourself!`
 
 Circuit
 ==========================
@@ -78,7 +83,7 @@ Set the baud rate to 115200
 .. literalinclude:: ../../../freenove_Kit/Sketches/Sketch_17.1_Lvgl_Music/Sketch_17.1_Lvgl_Music.ino
    :linenos:
    :language: c
-   :lines: 13-17
+   :lines: 21-21
    :dedent:
 
 Initialize configuration.
@@ -117,6 +122,4 @@ Click **“Upload”** to upload the code to Freenove ESP32 Display. Set the bau
 
 .. note::
     
-    :red:`If the screen flickers during playback, it may be due to insufficient power supply. You can try powering with a battery.`
-
-
+    :combo:`red font-bolder:If the screen flickers during playback, it may be due to insufficient power supply. You can try powering with a battery.`

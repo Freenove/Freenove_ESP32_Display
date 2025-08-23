@@ -8,11 +8,16 @@ Project 13.1 LVGL
 Component List 
 =================================
 
-+----------------------------+----------------+
-| Freenove ESP32 Display x 1 | USB cable x1   |
-|                            |                |
-| |Chapter01_02|             | |Chapter01_03| |
-+----------------------------+----------------+
+.. table:: 
+    :align: center
+    :width: 80%
+    :class: table-line
+
+    +----------------------------+----------------+
+    | Freenove ESP32 Display x 1 | USB cable x1   |
+    |                            |                |
+    | |Chapter01_02|             | |Chapter01_03| |
+    +----------------------------+----------------+
 
 .. |Chapter01_02| image:: ../_static/imgs/1_Serial/Chapter01_02.png
 .. |Chapter01_03| image:: ../_static/imgs/1_Serial/Chapter01_03.png
@@ -22,12 +27,14 @@ Component Knowledge
 
 LVGL is a widely-used embedded GUI library that is implemented in pure C, making it highly portable and performant. It offers rich features and content, supporting both display and input devices such as touchscreens and keyboards.
 
-.. table::
-    :class: table-line
+.. table:: 
+    :align: center
+    :width: 80%
+    :class: zebra
 
     +----+-----------------------------------------------------------------------------------------------------------------+
     |    | Features supported by LVGL                                                                                      |
-    +----+-----------------------------------------------------------------------------------------------------------------+
+    +====+=================================================================================================================+
     | 1  | Powerful building blocks such as buttons, charts, lists, sliders, images, and more.                             |
     +----+-----------------------------------------------------------------------------------------------------------------+
     | 2  | Advanced graphics with animation, anti-aliasing, opacity, and smooth scrolling.                                 |

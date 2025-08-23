@@ -8,16 +8,21 @@ Project 6.1 SD Test
 Component List
 ============================
 
-+----------------------------+----------------+
-| Freenove ESP32 Display x 1 | USB cable x1   |
-|                            |                |
-| |Chapter01_02|             | |Chapter01_03| |
-+----------------------------+----------------+
+.. table:: 
+    :align: center
+    :width: 80%
+    :class: table-line
+
+    +----------------------------+----------------+
+    | Freenove ESP32 Display x 1 | USB cable x1   |
+    |                            |                |
+    | |Chapter01_02|             | |Chapter01_03| |
+    +----------------------------+----------------+
 
 .. |Chapter01_02| image:: ../_static/imgs/1_Serial/Chapter01_02.png
 .. |Chapter01_03| image:: ../_static/imgs/1_Serial/Chapter01_03.png
 
-:red:`Please note that this kit does not include SD card and card reader, please buy them by yourself.`
+:combo:`red font-bolder:Please note that this kit does not include SD card and card reader, please buy them by yourself.`
 
 Component Knowledge
 ============================
@@ -105,7 +110,7 @@ Circuit
 
 Before connecting the USB cable, insert the SD card into the SD card slot on the back of the ESP32-S3.
 
-:red:`Please note that this kit does not include SD card and card reader; please buy them yourself.`
+:combo:`red font-bolder:Please note that this kit does not include SD card and card reader; please buy them yourself.`
 
 .. image:: ../_static/imgs/6_SD_Card/Chapter06_13.png
     :align: center

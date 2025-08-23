@@ -13,6 +13,8 @@ The ESP32-WROOM offers two antenna options: the PCB on-board antenna and the IPE
 
 .. table::
     :align: center
+    :class: table-line
+    :widths: 1 1
 
     +----------------------+--------------+
     | PCB on-board antenna | IPEX antenna |
@@ -27,6 +29,8 @@ The ESP32-WROOM of this product is based on the ESP32-WROOM-32E module with buil
 
 .. table::
     :align: center
+    :class: table-line
+    :widths: 1 1
 
     +-------------+-------------+
     | Top         | Bottom      |
@@ -52,22 +56,22 @@ Hardware Interfaces
 
 .. note::
 
-    :red:`The 2.8-inch version does not provide access to the I2C interface or IO39 pin.`
+    :combo:`red font-bolder:The 2.8-inch version does not provide access to the I2C interface or IO39 pin.`
 
 .. _Battery:
 
 Battery (Optional)
 =======================
 
-:red:`Please note that this product does not come with lithium batteries; please purchase them yourself.`
+:combo:`red font-bolder:Please note that this product does not come with lithium batteries; please purchase them yourself.`
 
-This device supports both **USB-powered and lithium battery-powered operation.** For optimal safety, USB power is recommended. Due to the :red:`hazardous nature of lithium batteries`, we advise against their use unless absolutely necessary.
+This device supports both **USB-powered and lithium battery-powered operation.** For optimal safety, USB power is recommended. Due to the :combo:`red font-bolder:hazardous nature of lithium batteries`, we advise against their use unless absolutely necessary.
 
 This device features an **MX1.25mm** connector and supports lithium batteries of various capacities. Note: The input voltage must be maintained within 3.7-4.2V range.
 
 Market-available batteries may feature **two distinct wiring configurations where the positive (+) and negative (-) terminals are reversed between models.** Please verify the battery's wiring matches the product requirements (refer to the diagram below) to prevent equipment failure or safety risks due to improper connection.
 
-**The** :red:`red cable` **is the positive terminal while the black one is negative.**
+**The** :combo:`red font-bolder:red cable` **is the positive terminal while the black one is negative.**
 
 .. image:: ../_static/imgs/Preface/Preface05.png
     :align: center
@@ -81,12 +85,12 @@ Market-available batteries may feature **two distinct wiring configurations wher
 Speaker
 ========================
 
-There is a speaker connector (PH1.25mm) on the Freenove ESP32 Display. It is recommended to use an :red:`8Ω 1W speaker`.
+There is a speaker connector (PH1.25mm) on the Freenove ESP32 Display. It is recommended to use an :combo:`red font-bolder:8Ω 1W speaker`.
 
 .. image:: ../_static/imgs/Preface/Preface06.png
     :align: center
 
-:red:`Please note that this kit does not include a speaker. Please buy one yourself.`
+:combo:`red font-bolder:Please note that this kit does not include a speaker. Please buy one yourself.`
 
 .. _SD_card:
 
@@ -114,7 +118,9 @@ The connector circuit uses SPI communication and supports high-speed Micro SD ca
 .. image:: ../_static/imgs/Preface/Preface07.png
     :align: center
 
-:red:`Note: This product does not include SD cards or SD card readers. Please buy them yourself.`
+.. note::
+
+    :combo:`red font-bolder:This product does not include SD cards or SD card readers. Please buy them yourself.`
 
 TFT Screen
 ===========================
@@ -173,6 +179,7 @@ The functions of the pins are allocated as follows:
 
 .. table:: 
     :align: center
+    :class: zebra
 
     +----------------+-----------+-------------+
     | ESP32-S3 N16R8 | Functions | Description |
@@ -209,12 +216,12 @@ For more information, refer to the schematic.
 CH340 (Required)
 ****************************************
 
-ESP32-WROOM uses CH340 to download code. Therefore, before using the device, it is necessary to install the CH343 driver on your computer.
+ESP32 uses CH340 to download codes. So before using it, we need to install CH340 driver in our computers.
 
 Windows
 ===================================
 
-Check whether CH343 has been installed
+Check whether CH340 has been installed
 -------------------------------------------
 
 1. Connect your computer and ESP32-WROOM with a USB cable.
@@ -222,35 +229,35 @@ Check whether CH343 has been installed
 .. image:: ../_static/imgs/Preface/Preface10.png
     :align: center
 
-2. Turn to the main interface of your computer, select "This PC" and right-click to select "Manage".
+2. Turn to the main interface of your computer, select “**This PC**” and right-click to select “**Manage**”.
 
 .. image:: ../_static/imgs/Preface/Preface11.png
     :align: center
 
-3. Click "Device Manager". If your computer has installed CH343, you can see"USB-Enhances-SERIAL CH343 (COMx)". And you can click :ref:`here <Programming_Software>` to move to the next step.
+3. Click “Device Manager”. If your computer has installed CH340, you can see“USB-SERIAL CH340 (COMx)”. And you can click :ref:`here <Programming_Software>` to move to the next step.
 
 .. image:: ../_static/imgs/Preface/Preface12.png
     :align: center
 
-Installing CH343
+Installing CH340
 ----------------------
 
-1. First, download CH343 driver, click http://www.wch-ic.com/search?t=all&q=ch343 to download the appropriate one based on your operating system.
+1. First, download CH340 driver, click http://www.wch-ic.com/search?q=CH340&t=downloads to download the appropriate one based on your operating system.
 
 .. image:: ../_static/imgs/Preface/Preface13.png
     :align: center
 
-If you would not like to download the installation package, you can open "Freenove_Media_Kit_for_ESP32-S3/CH343", we have prepared the installation package.
+If you would not like to download the installation package, you can open "“Freenove_ESP32_Display/CH340", we have prepared the installation package.
 
 .. image:: ../_static/imgs/Preface/Preface14.png
     :align: center
 
-2. Open the folder "Freenove_Media_Kit_for_ESP32-S3/CH343/Windows/"
+2. Open the folder “Freenove_ESP32_Display/CH340/Windows/”
 
 .. image:: ../_static/imgs/Preface/Preface15.png
     :align: center
 
-3. Double click "CH343SER.EXE".
+3. Double click “**CH341SER.EXE**”.
 
 .. image:: ../_static/imgs/Preface/Preface16.png
     :align: center
@@ -265,24 +272,24 @@ If you would not like to download the installation package, you can open "Freeno
 .. image:: ../_static/imgs/Preface/Preface18.png
     :align: center
 
-6. When ESP32-S3 WROOM is connected to computer, select "This PC", right-click to select "Manage" and click "Device Manager" in the newly pop-up dialog box, and you can see the following interface.
+6. When ESP32 is connected to computer, select “This PC”, right-click to select “Manage” and click “Device Manager” in the newly pop-up dialog box, and you can see the following interface.
 
 .. image:: ../_static/imgs/Preface/Preface19.png
     :align: center
 
-7. So far, CH343 has been installed successfully. Close all dialog boxes. 
+7. So far, CH340 has been installed successfully. Close all dialog boxes. 
 
 MAC
 =======================================
 
-First, download CH343 driver. Click http://www.wch-ic.com/search?t=all&q=ch343 to download the appropriate one based on your operating system.
+First, download CH340 driver, click http://www.wch-ic.com/search?q=CH340&t=downloads to download the appropriate one based on your operating system.
 
 .. image:: ../_static/imgs/Preface/Preface20.png
     :align: center
 
-If you would not like to download the installation package, you can open **"Freenove_Media_Kit_for_ESP32-S3/CH343"**. We have prepared the installation package.
+If you would not like to download the installation package, you can open **"Freenove_ESP32_Display/CH340"**. We have prepared the installation package.
 
-Second, open the folder **"Freenove_Media_Kit_for_ESP32-S3/CH343/MAC/"**
+Second, open the folder **"Freenove_ESP32_Display/CH340/MAC/"**
 
 .. image:: ../_static/imgs/Preface/Preface21.png
     :align: center
@@ -295,16 +302,6 @@ Third, click Continue.
 Fourth, click Install.
 
 .. image:: ../_static/imgs/Preface/Preface23.png
-    :align: center
-
-If it is blocked, please open Security Preferences to allow it.
-
-.. image:: ../_static/imgs/Preface/Preface24.png
-    :align: center
-
-If your OS is Sequoia 15.0.1 and above, please go to System settings - General - login items - extensions to enable the driver.
-
-.. image:: ../_static/imgs/Preface/Preface25.png
     :align: center
 
 Then, waiting Finish.
@@ -321,86 +318,6 @@ If it fails to be installed with the above steps, you can refer to readme.pdf to
 
 .. image:: ../_static/imgs/Preface/Preface28.png
     :align: center
-
-Linux
-==============================
-
-Here we take Ubuntu system as an example. Open the Terminal.
-
-.. image:: ../_static/imgs/Preface/Preface29.png
-    :align: center
-
-Run "lsusb" to check the port.
-
-.. code-block:: console
-
-    lsusb
-    ls /dev/tty*
-
-.. image:: ../_static/imgs/Preface/Preface30.png
-    :align: center
-
-CH343 is fully compliant to the Communications Device Class (CDC) standard, they will work with a standard CDC-ACM driver (CDC - Abstract Control Model). Linux operating systems supply a default CDC-ACM driver that can be used with these USB UART devices. In Linux, this driver file name is cdc-acm. 
-
-If your computer does not recognize the ESP32S3's port, you can do as follows to install the ch343 driver.
-
-Install the CH343 driver with the following command.
-
-.. code-block:: console
-    
-    git clone https://github.com/WCHSoftGroup/ch343ser_linux.git
-
-.. image:: ../_static/imgs/Preface/Preface31.png
-    :align: center
-
-Enter the folder.
-
-.. code-block:: console
-
-    cd ch343ser_linux/driver/
-
-.. image:: ../_static/imgs/Preface/Preface32.png
-    :align: center
-
-Compile and generate the ch343.ko file.
-
-.. code-block:: console
-    
-    make
-
-.. image:: ../_static/imgs/Preface/Preface33.png
-    :align: center
-
-Load the generated file to the system.
-
-.. code-block:: console
-    
-    sudo make load
-    sudo make install
-
-.. image:: ../_static/imgs/Preface/Preface34.png
-    :align: center
-
-Connect the ESP32S3 to your computer, check the port with the following command and you should see the port.
-
-.. code-block:: console
-    
-    ls /dev/tty*
-
-.. image:: ../_static/imgs/Preface/Preface35.png
-    :align: center
-
-Accessing "ttyACM0" in Ubuntu requires higher privileges, so permission escalation via command is mandatory.
-
-.. code-block:: console
-    
-    sudo usermod -a -G dialout $USER
-    sudo reboot
-
-.. image:: ../_static/imgs/Preface/Preface36.png
-    :align: center
-
-Please note that the configure takes effect after rebooting.
 
 .. _Programming_Software:
 
@@ -428,32 +345,35 @@ The interface of Arduino Software is as follows:
 
 Programs written with Arduino Software (IDE) are called sketches. These sketches are written in the text editor and saved with the file extension.ino. The editor features text cutting/pasting and searching/replacing. The message area gives feedback while saving and exporting and also displays errors. The console displays text output by the Arduino Software (IDE), including complete error messages and other information. The bottom right-hand corner of the window displays the configured board and serial port. The toolbar buttons allow you to verify and upload programs, create, open, and save sketches, and open the serial monitor.
 
-+-------------+-----------------------------------------------------------------------------------------+
-| |Preface40| | Verify                                                                                  |
-|             |                                                                                         |
-|             | Check your code for compile errors.                                                     |
-+-------------+-----------------------------------------------------------------------------------------+
-| |Preface41| | Upload                                                                                  |
-|             |                                                                                         |
-|             |                                                                                         |
-|             | Compile your code and upload them to the configured board.                              |
-+-------------+-----------------------------------------------------------------------------------------+
-| |Preface42| | Debug                                                                                   |
-|             |                                                                                         |
-|             | Debug code running on the board. (Some development boards do not support this function) |
-+-------------+-----------------------------------------------------------------------------------------+
-| |Preface43| | Development board selection                                                             |
-|             |                                                                                         |
-|             | Configure the support package and upload port of the development board.                 |
-+-------------+-----------------------------------------------------------------------------------------+
-| |Preface44| | Serial Plotter                                                                          |
-|             |                                                                                         |
-|             | Receive serial port data and plot it in a discounted graph.                             |
-+-------------+-----------------------------------------------------------------------------------------+
-| |Preface45| | Serial Monitor                                                                          |
-|             |                                                                                         |
-|             | Open the serial monitor.                                                                |
-+-------------+-----------------------------------------------------------------------------------------+
+.. table:: 
+    :align: center
+    :class: table-line
+
+    +-------------+-----------------------------------------------------------------------------------------+
+    | |Preface40| | Verify                                                                                  |
+    |             |                                                                                         |
+    |             | Check your code for compile errors.                                                     |
+    +-------------+-----------------------------------------------------------------------------------------+
+    | |Preface41| | Upload                                                                                  |
+    |             |                                                                                         |
+    |             | Compile your code and upload them to the configured board.                              |
+    +-------------+-----------------------------------------------------------------------------------------+
+    | |Preface42| | Debug                                                                                   |
+    |             |                                                                                         |
+    |             | Debug code running on the board. (Some development boards do not support this function) |
+    +-------------+-----------------------------------------------------------------------------------------+
+    | |Preface43| | Development board selection                                                             |
+    |             |                                                                                         |
+    |             | Configure the support package and upload port of the development board.                 |
+    +-------------+-----------------------------------------------------------------------------------------+
+    | |Preface44| | Serial Plotter                                                                          |
+    |             |                                                                                         |
+    |             | Receive serial port data and plot it in a discounted graph.                             |
+    +-------------+-----------------------------------------------------------------------------------------+
+    | |Preface45| | Serial Monitor                                                                          |
+    |             |                                                                                         |
+    |             | Open the serial monitor.                                                                |
+    +-------------+-----------------------------------------------------------------------------------------+
 
 .. |Preface40| image:: ../_static/imgs/Preface/Preface40.png
 .. |Preface41| image:: ../_static/imgs/Preface/Preface41.png
@@ -484,7 +404,7 @@ Third, fill in https://raw.githubusercontent.com/espressif/arduino-esp32/gh-page
 
 .. note::
 
-    :red:`if you copy and paste the URL directly, you may lose the "-". Please check carefully to make sure the link is correct.`
+    :combo:`red font-bolder:if you copy and paste the URL directly, you may lose the "-". Please check carefully to make sure the link is correct.`
 
 Fourth, click "Boards Manager". Enter "esp32" in Boards manager, select 3.2.0, and click "INSTALL".
 
@@ -525,7 +445,7 @@ Before starting the learning process, it is necessary to install some libraries 
 
 .. note:: 
 
-    :red:`Some libraries are not the latest version. Please do not update them even if it prompts every time you open the IDE. Just click LATER. Otherwise, it may lead to compilation failure.`
+    :combo:`red font-bolder:Some libraries are not the latest version. Please do not update them even if it prompts every time you open the IDE. Just click LATER. Otherwise, it may lead to compilation failure.`
 
 .. image:: ../_static/imgs/Preface/Preface55.png
     :align: center

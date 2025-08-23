@@ -8,15 +8,20 @@ Project 16.1 LVGL RGB
 Component List 
 =============================
 
-+----------------------------+----------------+
-| Freenove ESP32 Display x 1 | USB cable x1   |
-|                            |                |
-| |Chapter01_02|             | |Chapter01_03| |
-+----------------------------+----------------+
-| Stylus x 1                                  |
-|                                             |
-| |Chapter11_00|                              |
-+----------------------------+----------------+
+.. table:: 
+    :align: center
+    :width: 80%
+    :class: table-line
+
+    +----------------------------+----------------+
+    | Freenove ESP32 Display x 1 | USB cable x1   |
+    |                            |                |
+    | |Chapter01_02|             | |Chapter01_03| |
+    +----------------------------+----------------+
+    | Stylus x 1                                  |
+    |                                             |
+    | |Chapter11_00|                              |
+    +---------------------------------------------+
 
 .. |Chapter01_02| image:: ../_static/imgs/1_Serial/Chapter01_02.png
 .. |Chapter01_03| image:: ../_static/imgs/1_Serial/Chapter01_03.png

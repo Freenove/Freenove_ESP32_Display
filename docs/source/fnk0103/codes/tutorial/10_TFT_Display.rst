@@ -10,11 +10,16 @@ Freenove ESP32 Display is available in five different models, each featuring a u
 Component List 
 =================================
 
-+----------------------------+----------------+
-| Freenove ESP32 Display x 1 | USB cable x1   |
-|                            |                |
-| |Chapter01_02|             | |Chapter01_03| |
-+----------------------------+----------------+
+.. table:: 
+    :align: center
+    :width: 80%
+    :class: table-line
+
+    +----------------------------+----------------+
+    | Freenove ESP32 Display x 1 | USB cable x1   |
+    |                            |                |
+    | |Chapter01_02|             | |Chapter01_03| |
+    +----------------------------+----------------+
 
 .. |Chapter01_02| image:: ../_static/imgs/1_Serial/Chapter01_02.png
 .. |Chapter01_03| image:: ../_static/imgs/1_Serial/Chapter01_03.png
@@ -89,7 +94,7 @@ Here we take the 4-in display as an example, modifying it as shown below:
 .. image:: ../_static/imgs/10_TFT_Display/Chapter10_08.png
     :align: center
 
-:red:`Important Note: Only one macro definition should be uncommented.`
+:combo:`red font-bolder:Important Note: Only one macro definition should be uncommented.`
 
 Sketch_10.1_TFT_Rainbow
 --------------------------------
@@ -168,11 +173,16 @@ Project 10.2 Flash JPG DMA
 Component List 
 ===========================
 
-+----------------------------+----------------+
-| Freenove ESP32 Display x 1 | USB cable x1   |
-|                            |                |
-| |Chapter01_02|             | |Chapter01_03| |
-+----------------------------+----------------+
+.. table:: 
+    :align: center
+    :width: 80%
+    :class: table-line
+
+    +----------------------------+----------------+
+    | Freenove ESP32 Display x 1 | USB cable x1   |
+    |                            |                |
+    | |Chapter01_02|             | |Chapter01_03| |
+    +----------------------------+----------------+
 
 Component Knowledge
 ============================

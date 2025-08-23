@@ -8,16 +8,21 @@ Project 7.1 Play MP3 SD by DAC
 Component List 
 =========================
 
-+----------------------------+----------------+
-| Freenove ESP32 Display x 1 | USB cable x1   |
-|                            |                |
-| |Chapter01_02|             | |Chapter01_03| |
-+----------------------------+----------------+
+.. table:: 
+    :align: center
+    :width: 80%
+    :class: table-line
+
+    +----------------------------+----------------+
+    | Freenove ESP32 Display x 1 | USB cable x1   |
+    |                            |                |
+    | |Chapter01_02|             | |Chapter01_03| |
+    +----------------------------+----------------+
 
 .. |Chapter01_02| image:: ../_static/imgs/1_Serial/Chapter01_02.png
 .. |Chapter01_03| image:: ../_static/imgs/1_Serial/Chapter01_03.png
 
-:red:`This product does not include speaker, SD card, and SD card reader, please buy them by yourself. For more information, please refer to` :ref:`Speaker`, :ref:`SD_card` :red:`sections.`
+:combo:`red font-bolder:This product does not include speaker, SD card, and SD card reader, please buy them by yourself. For more information, please refer to` :ref:`Speaker`, :ref:`SD_card` :combo:`red font-bolder:sections.`
 
 Circuit
 ========================
@@ -115,7 +120,7 @@ Read audio data and play it.
    :lines: 52-56
    :dedent:
 
-:red:`This product does not include speaker, SD card, and SD card reader, please buy them by yourself. For more information, please refer to`` :ref:`Speaker <Speaker>`, :ref:`SD card <SD_card>` :red:`sections.`
+:combo:`red font-bolder:This product does not include speaker, SD card, and SD card reader, please buy them by yourself. For more information, please refer to`` :ref:`Speaker <Speaker>`, :ref:`SD card <SD_card>` :combo:`red font-bolder:sections.`
 
 Before uploading the code, copy the music to the root directory of the SD card with the SD card reader.
 

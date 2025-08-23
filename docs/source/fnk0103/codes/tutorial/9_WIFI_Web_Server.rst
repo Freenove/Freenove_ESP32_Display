@@ -8,11 +8,16 @@ Project 9.1 WIFI Web Servers LED
 Component List 
 =================================
 
-+----------------------------+----------------+
-| Freenove ESP32 Display x 1 | USB cable x1   |
-|                            |                |
-| |Chapter01_02|             | |Chapter01_03| |
-+----------------------------+----------------+
+.. table:: 
+    :align: center
+    :width: 80%
+    :class: table-line
+
+    +----------------------------+----------------+
+    | Freenove ESP32 Display x 1 | USB cable x1   |
+    |                            |                |
+    | |Chapter01_02|             | |Chapter01_03| |
+    +----------------------------+----------------+
 
 .. |Chapter01_02| image:: ../_static/imgs/1_Serial/Chapter01_02.png
 .. |Chapter01_03| image:: ../_static/imgs/1_Serial/Chapter01_03.png
@@ -62,7 +67,7 @@ Sketch
 
 Next, we download the code to Freenove_ESP32_Display to test. Open **"Sketch_09.1_WiFi_Web_Servers_LED"** folder under **"Freenove_ESP32_Display\\Sketch"** and double-click **"Sketch_09.1_WiFi_Web_Servers_LED.ino"**.
 
-:red:`Important Note: Before upload the code, please ensure that the Wi-Fi SSID and Password are correctly configured in the code, and that the Wi-Fi network to connect is 2.4GHz.`
+:combo:`red font-bolder:Important Note: Before upload the code, please ensure that the Wi-Fi SSID and Password are correctly configured in the code, and that the Wi-Fi network to connect is 2.4GHz.`
 
 .. code-block:: c
     :linenos:
@@ -175,7 +180,7 @@ Click **"Upload"** to upload the code to Freenove ESP32 Display.
 
 When the serial monitor prints the following information, it means the network connection is successful. Use a mobile phone or computer browser to open the IP address printed by the serial monitor.
 
-:red:`Please note: If it keeps printing dots, please confirm whether the WiFi is in the 2.4G band.`
+:combo:`red font-bolder:Please note: If it keeps printing dots, please confirm whether the WiFi is in the 2.4G band.`
 
 .. image:: ../_static/imgs/9_WIFI_Web_Server/Chapter09_02.png
     :align: center

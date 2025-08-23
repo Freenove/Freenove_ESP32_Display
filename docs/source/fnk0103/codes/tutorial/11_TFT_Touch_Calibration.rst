@@ -8,15 +8,20 @@ Project 11.1 TFT Touch Calibration
 Component List 
 ============================
 
-+----------------------------+----------------+
-| Freenove ESP32 Display x 1 | USB cable x1   |
-|                            |                |
-| |Chapter01_02|             | |Chapter01_03| |
-+----------------------------+----------------+
-| Stylus x 1                                  |
-|                                             |
-| |Chapter11_00|                              |
-+----------------------------+----------------+
+.. table:: 
+    :align: center
+    :width: 80%
+    :class: table-line
+
+    +----------------------------+----------------+
+    | Freenove ESP32 Display x 1 | USB cable x1   |
+    |                            |                |
+    | |Chapter01_02|             | |Chapter01_03| |
+    +----------------------------+----------------+
+    | Stylus x 1                                  |
+    |                                             |
+    | |Chapter11_00|                              |
+    +----------------------------+----------------+
 
 .. |Chapter01_02| image:: ../_static/imgs/1_Serial/Chapter01_02.png
 .. |Chapter01_03| image:: ../_static/imgs/1_Serial/Chapter01_03.png
@@ -119,7 +124,7 @@ Save the calibration results printed in the serial monitor.
 
 .. note::
     
-    :red:`This calibration code only needs to run once during initial setup to obtain screen calibration parameters. After successful calibration, please save the calibration values for future use - no need to repeat this calibration procedure afterward.`
+    :combo:`red font-bolder:This calibration code only needs to run once during initial setup to obtain screen calibration parameters. After successful calibration, please save the calibration values for future use - no need to repeat this calibration procedure afterward.`
 
 Sketch_11.1_TFT_Touch_Calibrate_3.2_3.5_4.0_Inch
 ----------------------------------------------------
@@ -181,4 +186,4 @@ The calibration results will be printed in the Serial Monitor. After calibration
 .. image:: ../_static/imgs/11_TFT_Touch_Calibration/Chapter11_11.png
     :align: center
 
-:red:`This calibration routine should be executed only once during initial device setup to acquire screen calibration parameters.`
+:combo:`red font-bolder:This calibration routine should be executed only once during initial device setup to acquire screen calibration parameters.`
