@@ -27,7 +27,7 @@ Component List
 Circuit
 ========================
 
-Before connecting the USB cable, insert the SD card into the SD card slot on the back of the ESP32-S3.
+Before connecting the USB cable, insert the SD card into the SD card slot on the back of the Freenove ESP32 Display.
 
 .. image:: ../_static/imgs/7_Play_MP3/Chapter07_00.png
     :align: center
@@ -37,7 +37,7 @@ Connect the speaker.
 .. image:: ../_static/imgs/7_Play_MP3/Chapter07_01.png
     :align: center
 
-Connect Freenove ESP32-S3 to the computer using the USB cable.
+Connect Freenove Freenove ESP32 Display to the computer using the USB cable.
 
 .. image:: ../_static/imgs/7_Play_MP3/Chapter07_02.png
     :align: center

@@ -182,7 +182,7 @@ The functions of the pins are allocated as follows:
     :class: zebra
 
     +----------------+-----------+-------------+
-    | ESP32-S3 N16R8 | Functions | Description |
+    | ESP32          | Functions | Description |
     +================+===========+=============+
     | GPIO22         | R         | RGB         |
     +----------------+-----------+             |

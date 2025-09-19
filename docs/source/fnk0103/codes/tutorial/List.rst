@@ -7,6 +7,7 @@ List
 .. table:: 
     :align: center
     :width: 80%
+    :class: table-line
 
     +----------------------------+----------------------+
     | Freenove ESP32 Display x 1 | USB-C Data Cable x 1 |

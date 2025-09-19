@@ -237,7 +237,7 @@ Component List
 Circuit
 =============================
 
-Connect Freenove ESP32-S3 to the computer using the USB cable.
+Connect Freenove Freenove ESP32 Display to the computer using the USB cable.
 
 .. image:: ../_static/imgs/1_Serial/Chapter01_04.png
     :align: center

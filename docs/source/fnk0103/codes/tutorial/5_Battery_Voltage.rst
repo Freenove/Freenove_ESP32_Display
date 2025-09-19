@@ -11,14 +11,11 @@ Related Knowledge
 ADC
 ---------------------------------
 
-ADC is an electronic integrated circuit used to convert analog signals such as voltages to digital or binary form consisting of 1s and 0s. The range of our ADC on Raspberry Pi Pico (W) is 10 bits, which means the resolution is 2^10=1024, and it represents a range (at 3.3V) will be divided equally to 1024 parts. The rage of analog values corresponds to ADC values. So the more bits the ADC has, the denser the partition of analog will be and the greater the precision of the resulting conversion.
+ADC is an electronic integrated circuit used to convert analog signals such as voltages to digital or binary form consisting of 1s and 0s. The range of our ADC on Freenove ESP32 Display is 12 bits, which means the resolution is 2^12=4096, and it represents a range (at 3.3V) will be divided equally to 4096 parts. The rage of analog values corresponds to ADC values. So the more bits the ADC has, the denser the partition of analog will be and the greater the precision of the resulting conversion.
 
-.. image:: ../_static/imgs/5_Battery_Voltage/Chapter05_00.png
-    :align: center
+Subsection 1: the analog in rang of 0V---3.3/4095 V corresponds to digital 0;
 
-Subsection 1: the analog in rang of 0V---3.3/1023 V corresponds to digital 0;
-
-Subsection 2: the analog in rang of 3.3/1023 V---2*3.3 /1023V corresponds to digital 1;
+Subsection 2: the analog in rang of 3.3/4095 V---2*3.3 /4095V corresponds to digital 1;
 
 The following analog will be divided accordingly.
 
@@ -26,7 +23,7 @@ The conversion formula is as follows:
 
 .. math::
 
-    \boldsymbol{ADC Value} = \boldsymbol{\frac{Analog Voltage}{3.3} \times 1023}
+    \boldsymbol{ADC Value} = \boldsymbol{\frac{Analog Voltage}{3.3} \times 4095}
 
 Battery Voltage
 ---------------------------------

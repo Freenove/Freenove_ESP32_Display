@@ -13,7 +13,7 @@ Related Knowledge
 How Interrupts Work
 -----------------------------------
 
-When an interrupt event is triggered, the Raspberry Pi Pico (W) receives an interrupt signal. At this moment, the Raspberry Pi Pico (W) pauses the currently executing program and instead executes the Interrupt Service Routine (ISR). The ISR contains the code that needs to be processed after the interrupt event occurs. Once the ISR execution is complete, the Raspberry Pi Pico will return to the state it was in before the interrupt occurred and continue executing the paused program, as shown in the diagram below.
+When an interrupt event is triggered, the Freenove ESP32 Display receives an interrupt signal. At this moment, the Freenove ESP32 Display pauses the currently executing program and instead executes the Interrupt Service Routine (ISR). The ISR contains the code that needs to be processed after the interrupt event occurs. Once the ISR execution is complete, the Freenove ESP32 Display will return to the state it was in before the interrupt occurred and continue executing the paused program, as shown in the diagram below.
 
 .. image:: ../_static/imgs/4_Button_Interrupt/Chapter04_00.png
     :align: center

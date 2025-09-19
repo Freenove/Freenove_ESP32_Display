@@ -108,14 +108,14 @@ Please wait for the formatting process to complete. Once it is finished, the int
 Circuit
 =========================
 
-Before connecting the USB cable, insert the SD card into the SD card slot on the back of the ESP32-S3.
+Before connecting the USB cable, insert the SD card into the SD card slot on the back of the Freenove ESP32 Display.
 
 :combo:`red font-bolder:Please note that this kit does not include SD card and card reader; please buy them yourself.`
 
 .. image:: ../_static/imgs/6_SD_Card/Chapter06_13.png
     :align: center
 
-Connect Freenove ESP32-S3 to the computer using the USB cable. 
+Connect Freenove Freenove ESP32 Display to the computer using the USB cable. 
 
 .. image:: ../_static/imgs/6_SD_Card/Chapter06_14.png
     :align: center

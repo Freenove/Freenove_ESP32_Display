@@ -197,7 +197,7 @@ The core mechanism of DMA relies on a dedicated DMA controller taking over data 
 Circuit
 ============================
 
-Connect Freenove ESP32-S3 to the computer using the USB cable. 
+Connect Freenove Freenove ESP32 Display to the computer using the USB cable. 
 
 .. image:: ../_static/imgs/10_TFT_Display/Chapter10_11.png
     :align: center
