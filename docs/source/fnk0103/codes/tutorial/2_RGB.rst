@@ -84,6 +84,10 @@ Change the color of the RGB LED continuously with a cycle period of 500ms.
 
 Click "Upload" to upload the code to Freenove_ESP32_Display.
 
+.. note::
+    
+    :combo:`red font-bloder:This chapter does not involve the use of the screen. After  the code for this chapter, the screen may not light up, which is normal and not a hardware malfunction. If you need to verify whether the screen is functioning properly, please refer to Chapter 10 for testing.`
+
 .. image:: ../_static/imgs/2_RGB/Chapter02_01.png
     :align: center
 
@@ -195,6 +199,10 @@ This code achieves the function of printing data on serial monitor. Click "Uploa
     :align: center
 
 After uploading the code, the RGB LED produces a smooth breathing effect, gradually increasing in brightness while cycling through colors in the sequence: red → green → blue → off (repeat).
+
+.. note::
+    
+    :combo:`red font-bloder:This chapter does not involve the use of the screen. After  the code for this chapter, the screen may not light up, which is normal and not a hardware malfunction. If you need to verify whether the screen is functioning properly, please refer to Chapter 10 for testing.`
 
 .. image:: ../_static/imgs/2_RGB/Chapter02_06.png
     :align: center

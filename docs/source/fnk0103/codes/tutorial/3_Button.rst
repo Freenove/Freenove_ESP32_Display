@@ -117,6 +117,10 @@ Control the color of the RGB LED through the button.
 
 Click **"Upload"** to upload the code to Freenove_ESP32_Display.
 
+.. note::
+    
+    :combo:`red font-bloder:This chapter does not involve the use of the screen. After  the code for this chapter, the screen may not light up, which is normal and not a hardware malfunction. If you need to verify whether the screen is functioning properly, please refer to Chapter 10 for testing.`
+
 .. image:: ../_static/imgs/3_Button/Chapter03_02.png
     :align: center
 

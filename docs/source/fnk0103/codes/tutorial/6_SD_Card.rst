@@ -222,6 +222,10 @@ Delete the file "foo.txt". Rename hello.txt to foo.txt and read the file.
 
 Click **"Upload"** to upload the code to Freenove_ESP32_Display.
 
+.. note::
+    
+    :combo:`red font-bloder:This chapter does not involve the use of the screen. After  the code for this chapter, the screen may not light up, which is normal and not a hardware malfunction. If you need to verify whether the screen is functioning properly, please refer to Chapter 10 for testing.`
+
 .. image:: ../_static/imgs/6_SD_Card/Chapter06_15.png
     :align: center
 

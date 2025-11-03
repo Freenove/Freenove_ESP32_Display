@@ -129,6 +129,10 @@ Before uploading the code, copy the music to the root directory of the SD card w
 
 Click "Upload" to upload the code to Freenove ESP32 Display.
 
+.. note::
+    
+    :combo:`red font-bloder:This chapter does not involve the use of the screen. After  the code for this chapter, the screen may not light up, which is normal and not a hardware malfunction. If you need to verify whether the screen is functioning properly, please refer to Chapter 10 for testing.`
+
 .. image:: ../_static/imgs/7_Play_MP3/Chapter07_06.png
     :align: center
 

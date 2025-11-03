@@ -98,6 +98,10 @@ The purpose of this code is to display data on the serial monitor. Click "Upload
 
 After downloading the code, open the serial port monitor, and set the baud rate to 115200, input any data in the messages bard and press Enter key, Freenove ESP32 Display will print the received data.
 
+.. note::
+    
+    :combo:`red font-bloder:This chapter does not involve the use of the screen. After  the code for this chapter, the screen may not light up, which is normal and not a hardware malfunction. If you need to verify whether the screen is functioning properly, please refer to Chapter 10 for testing.`
+
 .. image:: ../_static/imgs/1_Serial/Chapter01_06.png
     :align: center
 
