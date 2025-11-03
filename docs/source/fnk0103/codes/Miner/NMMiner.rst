@@ -28,7 +28,7 @@ Precautions
 
   - Never disclose your wallet's private key or recovery phrase to anyone. The only information you need to provide is your public cryptocurrency receiving address.
 
-* Troubleshooting  
+* Troubleshooting
 
   - If you have followed the tutorial but are still unable to use the miner, please feel free to contact us for assistance. (support@freenove.com)
 
@@ -219,14 +219,18 @@ Management Tools
 NMController Client
 ======================================
 
-Note: NMController Client only works on Windows.
+.. note::
+    
+    :combo:`red font-bolder:1) MController Client only works on Windows.`
+    
+    :combo:`red font-bolder:2) The NMController client, which is downloaded from NMMiner official, may trigger false positives from antivirus programs, incorrectly flagging it as a virus.  If you do not trust it, you can use alternative methods provided in this document to manage your device.`
 
-1. Open “**NMMiner_Tool/nmcontroller_client**”.
+1. Click to open the `NMMiner GitHub website <https://github.com/NMminer1024/NMMiner>`_, click **Code** -> **Download ZIP**
 
 .. image:: ../_static/imgs/NMMiner/NMMiner19.png
     :align: center
 
-2. Double click “**NMControllerSetup_x64.msi**” to open it.
+2. Extract the downloaded files, click **tool** -> **nmcontroller_client**, double click “**NMControllerSetup_x64.msi**” to open it.
 
 .. image:: ../_static/imgs/NMMiner/NMMiner20.png
     :align: center
@@ -258,17 +262,17 @@ NMController Web
 
 **NMController Web**: A cross-platform web client designed with Python, compatible with both Windows and macOS systems.
 
-1. Open “**NMMiner_Tool/nmcontroller_web**”.
+1. Click to open the `NMMiner GitHub website <https://github.com/NMminer1024/NMMiner>`_, click **Code** -> **Download ZIP**
 
-.. image:: ../_static/imgs/NMMiner/NMMiner25.png
+.. image:: ../_static/imgs/NMMiner/NMMiner19.png
     :align: center
 
-2. Select the folder based on your computer's OS.
+2. Extract the downloaded files, click **tool** -> **nmcontroller_web**, select the folder based on your computer's OS.
 
 .. image:: ../_static/imgs/NMMiner/NMMiner26.png
     :align: center
 
-3.	Double click to run the program.
+3. Double click to run the program.
    
    (1) You can access the management interface by visiting http://localhost:7877 on the current device.
    
