@@ -33,43 +33,10 @@ Compatibility Description
 
 At the time of writing this guide, the Freenove ESP32 Display is available in five different models. Although they vary in terms of screen drivers, resolutions, and screen sizes, all of them can be set up using this tutorial to learn how to use NerdMiner_v2.
 
-.. table::
-    :class: zebra
-    :align: center
+The official firmware of NerdMiner_v2 is not fully compatible with this product. Therefore, Freenove has conducted secondary development based on it to ensure stable operation.
 
-    +--------------+------------+----------+----------------------------+
-    | Models       | Specifications        | Effect                     |
-    +==============+============+==========+============================+
-    | FNK0103F_2P8 | Size       | 2.8 inch | Color Inversion by Default |
-    +              +------------+----------+                            +
-    |              | Resolution | 240x320  |                            |
-    +              +------------+----------+                            +
-    |              | Driver     | ILI9341  |                            |
-    +--------------+------------+----------+----------------------------+
-    | FNK0103B_2P8 | Size       | 2.8inch  | Fully Compatible           |
-    +              +------------+----------+                            +
-    |              | Resolution | 240x320  |                            |
-    +              +------------+----------+                            +
-    |              | Driver     | ST7789   |                            |
-    +--------------+------------+----------+----------------------------+
-    | FNK0103L_3P2 | Size       | 3.2inch  | Incorrect Color            |
-    +              +------------+----------+                            +
-    |              | Resolution | 240x320  |                            |
-    +              +------------+----------+                            +
-    |              | Driver     | ST7789   |                            |
-    +--------------+------------+----------+----------------------------+
-    | FNK0103N_3P5 | Size       | 3.5inch  | Not Full Screen            |
-    +              +------------+----------+                            +
-    |              | Resolution | 320x480  |                            |
-    +              +------------+----------+                            +
-    |              | Driver     | ST7796   |                            |
-    +--------------+------------+----------+----------------------------+
-    | FNK0103S_4P0 | Size       | 4.0inch  | Not Full Screen            |
-    +              +------------+----------+                            +
-    |              | Resolution | 320x480  |                            |
-    +              +------------+----------+                            +
-    |              | Driver     | ST7796   |                            |
-    +--------------+------------+----------+----------------------------+
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner29.png
+    :align: center
 
 How to Use
 ******************************
@@ -77,80 +44,83 @@ How to Use
 Firmware Flashing 
 ==============================
 
-1. Open the `Bitronics flasher <https://flasher.bitronics.store/>`_ interface and click “**Select your device**”.
+Note: Since the official NerdMiner_v2 firmware is not compatible with this product, this tutorial only demonstrates how to flash the adapted firmware onto the product via Freenove official website. For information on the official NerdMiner_v2 firmware tool (`Bitronics Flasher <https://flasher.bitronics.store/>`_), please refer to the relevant documentation separately.
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner00.png
+1. Open the **Freenove - Web Flasher** (https://freenove.com/flasher) and click “**Select device**".
+
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner18.png
     :align: center
 
-2. Select “**Nerdminer**”.
+2. Select “**FNK0103**”
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner01.png
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner19.png
     :align: center
 
-3. Select the correct firmware for your display based on the table below.
+3. Click “Select firmaware” and select the firmware corresponding to your display model.
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner02.png
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner20.png
     :align: center
 
-.. table::
-    :class: zebra
+4. Click “Select version” to select the appropriate version.
+
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner21.png
     :align: center
 
-    +--------------+-------------------------+
-    | Models       | Board Version           |
-    +==============+=========================+
-    | FNK0103F_2P8 | ESP32-2432S028R         |
-    +--------------+-------------------------+
-    | FNK0103B_2P8 | ESP32-2432S028R         |
-    +--------------+-------------------------+
-    | FNK0103L_3P2 | ESP32-2432S024          |
-    +--------------+-------------------------+
-    | FNK0103N_3P5 | ESP32-2432S024          |
-    +--------------+-------------------------+
-    | FNK0103S_4P0 | ESP32-2432S024          |
-    +--------------+-------------------------+
-
-**If you have any concerns, please feel free to contact us via** support@freenove.com
-
-4. Select the latest firmware version. 
-
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner03.png
-    :align: center
-
-5. Connect the Freenove ESP32 Display to your computer.
-
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner04.png
-    :align: center
-
-6. Click “**Connect**”.
-
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner05.png
-    :align: center
-
-7.	Select the port of your ESP32.
+5.	Click "Connect", select the correct serial port from the pop-up window in the upper left corner of the webpage, and then click "Connect" within that window.
 
 .. note::
 
-    - The port number may vary among devices.
+   :combo:`red font-bolder:1. The port number (e.g., COMx) is dynamically assigned by your system. The specific value (such as COM3, COM5, etc.) may differ from the example in the diagram. Please select the port that is actually displayed.`
 
-    - Generally, COM1 is not the port of ESP32.
+   :combo:`red font-bolder:2. COM1 is typically not the port for the target device. Please select a different port to connect.`
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner06.png
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner22.png
     :align: center
 
-8. Click “Start Flashing”.
+6. Click "**Flash**" to start the firmware burning process. Click "Open Console" to view the current progress.
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner07.png
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner23.png
     :align: center
 
-9.	The firmware starts to flash into the Freenove ESP32 Display. :combo:`red font-bolder:Do NOT remove power supply during this process.`
+7.	The device starts flashing the firmware.
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner08.png
+.. note::
+
+    :combo:`red font-bolder:1. Do not disconnect the device from your computer during the firmware flashing process!`
+    
+    :combo:`red font-bolder:2. If the download does not start after clicking "Flash", it may be due to network latency. Try refreshing the webpage and attempting the process again.`
+
+    :combo:`red font-bolder:3. If the "Flash" button is disabled (grayed out), please check that all previous configuration steps have been completed.`
+
+**If you have any concerns, please feel free to contact us via** support@freenove.com
+
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner24.png
     :align: center
 
-10. The following message indicates successfully firmware flashing.
+8. Click the reset button on the device.
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner09.png
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner25.png
+    :align: center
+
+The device starts to work.
+
+.. note::
+    
+    :combo:`red font-bolder:During the first boot, the screen may display a solid color (e.g., white or other colors) for a few seconds. Please wait patiently, as this is normal and does not affect functionality.`
+
+9. (Optional) Click "**Serial Monitor**" to open the serial monitor.
+
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner26.png
+    :align: center
+
+Set the baudrate to 115200, and click **Start Monitor**”.
+
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner27.png
+    :align: center
+
+The serial monitor will output debugging information in real-time.
+
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner28.png
     :align: center
 
 Wi-Fi Configuration
