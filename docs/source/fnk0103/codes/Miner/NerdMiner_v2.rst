@@ -145,7 +145,11 @@ PASSWORD: :red:`MineYourCoins`
 .. image:: ../_static/imgs/NerdMiner_v2/NerdMiner12.png
     :align: center
 
-4. Select your network. Please note that ESP32 only supports 24.GHz network.
+.. note::
+    
+    :combo:`red font-bolder:If the page does not redirect automatically, please visit 192.168.4.1 in your browser.`
+
+4. Select your network. Please note that ESP32 **only supports 24.GHz network**.
 
 .. image:: ../_static/imgs/NerdMiner_v2/NerdMiner13.png
     :align: center

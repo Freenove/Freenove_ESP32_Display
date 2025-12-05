@@ -178,7 +178,11 @@ Wi-Fi Configuration
 .. image:: ../_static/imgs/NMMiner/NMMiner11.png
     :align: center
 
-4. Select your network. Please note that ESP32 only supports 2.4GHz network.
+.. note::
+    
+    :combo:`red font-bolder:If the page does not redirect automatically, please visit 192.168.4.1 in your browser.`
+
+4. Select your network. Please note that ESP32 **only supports 2.4GHz network**.
 
 .. image:: ../_static/imgs/NMMiner/NMMiner12.png
     :align: center
