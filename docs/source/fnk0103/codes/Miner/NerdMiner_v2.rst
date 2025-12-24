@@ -26,7 +26,7 @@ Precautions
 
 * Troubleshooting  
   
-  - If you have followed the tutorial but are still unable to use the miner, please feel free to contact us for assistance. (support@freenove.com）
+  - If you have followed the tutorial but are still unable to use the miner, please feel free to contact us for assistance. (support@freenove.com)
 
 Compatibility Description
 **************************************
@@ -35,7 +35,7 @@ At the time of writing this guide, the Freenove ESP32 Display is available in fi
 
 The official firmware of NerdMiner_v2 is not fully compatible with this product. Therefore, Freenove has conducted secondary development based on it to ensure stable operation.
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner29.png
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner65.png
     :align: center
 
 How to Use
@@ -108,19 +108,17 @@ The device starts to work.
     
     :combo:`red font-bolder:During the first boot, the screen may display a solid color (e.g., white or other colors) for a few seconds. Please wait patiently, as this is normal and does not affect functionality.`
 
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner59.png
+    :align: center
+
 9. (Optional) Click "**Serial Monitor**" to open the serial monitor.
 
 .. image:: ../_static/imgs/NerdMiner_v2/NerdMiner26.png
     :align: center
 
-Set the baudrate to 115200, and click **Start Monitor**”.
+Set the baudrate to 115200, the serial monitor will output debugging information in real-time.
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner27.png
-    :align: center
-
-The serial monitor will output debugging information in real-time.
-
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner28.png
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner60.png
     :align: center
 
 Wi-Fi Configuration
@@ -131,36 +129,36 @@ Wi-Fi Configuration
 .. image:: ../_static/imgs/NerdMiner_v2/NerdMiner10.png
     :align: center
 
-2. Turn ON WLAN and connect to NerdMinerAP
+2. Turn ON WLAN and connect to MinerAP
 
-WiFi SSID: :red:`NerdMinerAP`
+WiFi SSID: :red:`MinerAP`
 
 PASSWORD: :red:`MineYourCoins`
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner11.png
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner61.png
     :align: center
 
 3. Click “**Configure WiFi**”
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner12.png
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner62.png
     :align: center
 
 .. note::
     
     :combo:`red font-bolder:If the page does not redirect automatically, please visit 192.168.4.1 in your browser.`
 
-4. Select your network. Please note that ESP32 **only supports 24.GHz network**.
+4. Select your network. Please note that ESP32 **only supports 2.4GHz network**.
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner13.png
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner63.png
     :align: center
 
 5. Configure device information.
 
-6. If you do not have a BTC address yet, please refer to Obtaining the BTC Receiving Address Section to get it. 
+6. If you do not have a BTC address yet, please refer to :ref:`Obtaining the BTC Receiving Address <fnk0103/codes/miner/obtaining_the_btc_receiving_address:obtaining the btc receiving address>` Section to get it. 
 
-7. If the mining efficiency is unsatisfactory, you can switch to other mining pools as needed.
+7. **If the mining efficiency is unsatisfactory, you can switch to** `other mining pools <https://github.com/BitMaker-hub/NerdMiner_v2?tab=readme-ov-file#pool-selection>`_ **as needed.**
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner14.png
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner64.png
     :align: center
 
 Management Tool

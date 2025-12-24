@@ -37,43 +37,8 @@ Compatibility Description
 
 At the time of writing this guide, the Freenove ESP32 Display is available in five different models. Although they vary in terms of screen drivers, resolutions, and screen sizes, all of them can be set up using this tutorial to learn how to use NMMiner.
 
-.. table:: 
-    :class: zebra
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner65.png
     :align: center
-
-    +--------------+------------+----------+------------------+
-    | Models       | Specifications        | Effect           |
-    +==============+============+==========+==================+
-    | FNK0103F_2P8 | Size       | 2.8 inch | Fully Compatible |
-    |              +------------+----------+                  |
-    |              | Resolution | 240x320  |                  |
-    |              +------------+----------+                  |
-    |              | Driver     | ILI9341  |                  |
-    +--------------+------------+----------+------------------+
-    | FNK0103B_2P8 | Size       | 2.8inch  | Fully Compatible |
-    |              +------------+----------+                  |
-    |              | Resolution | 240x320  |                  |
-    |              +------------+----------+                  |
-    |              | Driver     | ST7789   |                  |
-    +--------------+------------+----------+------------------+
-    | FNK0103L_3P2 | Size       | 3.2inch  | Color Inversion  |
-    |              +------------+----------+                  |
-    |              | Resolution | 240x320  |                  |
-    |              +------------+----------+                  |
-    |              | Driver     | ST7789   |                  |
-    +--------------+------------+----------+------------------+
-    | FNK0103N_3P5 | Size       | 3.5inch  | Fully Compatible |
-    |              +------------+----------+                  |
-    |              | Resolution | 320x480  |                  |
-    |              +------------+----------+                  |
-    |              | Driver     | ST7796   |                  |
-    +--------------+------------+----------+------------------+
-    | FNK0103S_4P0 | Size       | 4.0inch  | Fully Compatible |
-    |              +------------+----------+                  |
-    |              | Resolution | 320x480  |                  |
-    |              +------------+----------+                  |
-    |              | Driver     | ST7796   |                  |
-    +--------------+------------+----------+------------------+
 
 How to Use
 *****************************************

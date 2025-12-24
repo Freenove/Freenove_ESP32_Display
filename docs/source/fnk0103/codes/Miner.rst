@@ -22,5 +22,5 @@ Miner Tutorial
    :glob:
 
    Miner/Obtaining_the_BTC_Receiving_Address.rst
-   Miner/NMMiner.rst
    Miner/NerdMiner_v2.rst
+   Miner/NMMiner.rst
