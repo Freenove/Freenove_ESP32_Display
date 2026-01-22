@@ -35,38 +35,45 @@ At the time of writing this guide, the Freenove ESP32 Display is available in fi
 
 The official firmware of NerdMiner_v2 is not fully compatible with this product. Therefore, Freenove has conducted secondary development based on it to ensure stable operation.
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner65.png
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner66.png
     :align: center
 
 How to Use
 ******************************
 
-Firmware Flashing 
+Firmware Flashing & Update
 ==============================
 
 Note: Since the official NerdMiner_v2 firmware is not compatible with this product, this tutorial only demonstrates how to flash the adapted firmware onto the product via Freenove official website. For information on the official NerdMiner_v2 firmware tool (`Bitronics Flasher <https://flasher.bitronics.store/>`_), please refer to the relevant documentation separately.
 
-1. Open the **Freenove - Web Flasher** (https://freenove.com/flasher) and click “**Select device**".
+1. Connect the Freenove ESP32 Display to your computer.
+
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner04.png
+    :align: center
+
+2. Open the https://freenove.com/flasher and click “**Select device**".
 
 .. image:: ../_static/imgs/NerdMiner_v2/NerdMiner18.png
     :align: center
 
-2. Select “**FNK0103**”
+3. Select “**FNK0103**”
 
 .. image:: ../_static/imgs/NerdMiner_v2/NerdMiner19.png
     :align: center
 
-3. Click “Select firmaware” and select the firmware corresponding to your display model.
+4. Click “Select firmaware” and select the firmware corresponding to your display model.
 
 .. image:: ../_static/imgs/NerdMiner_v2/NerdMiner20.png
     :align: center
 
-4. Click “Select version” to select the appropriate version.
+5. Click “**Select version**” to select the appropriate version.
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner21.png
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner68.png
     :align: center
 
-5.	Click "Connect", select the correct serial port from the pop-up window in the upper left corner of the webpage, and then click "Connect" within that window.
+Note: As of the time of this document's creation, the Freenove Miner is available in two versions: the stable version (approximately 330 KH/s) and the high-performance version (approximately 630 KH/s). You can select the version that best fits your needs. The high-performance version is an enhanced iteration by Freenove built upon the original NerdMiner V2, delivering improved capability while fully preserving its native interface and operational logic, ensuring a consistent and smooth user experience.
+
+Click "**Connect**", select the correct serial port from the pop-up window in the upper left corner of the webpage, and then click "**Connect**" within that window.
 
 .. note::
 
@@ -79,10 +86,14 @@ Note: Since the official NerdMiner_v2 firmware is not compatible with this produ
 
 6. Click "**Flash**" to start the firmware burning process. Click "Open Console" to view the current progress.
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner23.png
+.. note::
+    
+    :combo:`red font-bolder:If you only want to update the firmware without reconfiguring the network, you can leave the "Erase Flash" checkbox unchecked.`
+
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner69.png
     :align: center
 
-7.	The device starts flashing the firmware.
+7. The device starts flashing the firmware.
 
 .. note::
 
@@ -94,24 +105,22 @@ Note: Since the official NerdMiner_v2 firmware is not compatible with this produ
 
 **If you have any concerns, please feel free to contact us via** support@freenove.com
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner24.png
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner70.png
     :align: center
 
-8. Click the reset button on the device.
+When the console displays the following text, the device starts to work.
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner25.png
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner71.png
     :align: center
-
-The device starts to work.
 
 .. note::
     
     :combo:`red font-bolder:During the first boot, the screen may display a solid color (e.g., white or other colors) for a few seconds. Please wait patiently, as this is normal and does not affect functionality.`
 
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner59.png
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner72.png
     :align: center
 
-9. (Optional) Click "**Serial Monitor**" to open the serial monitor.
+8. (Optional) Click "**Serial Monitor**" to open the serial monitor.
 
 .. image:: ../_static/imgs/NerdMiner_v2/NerdMiner26.png
     :align: center
@@ -160,6 +169,8 @@ PASSWORD: :red:`MineYourCoins`
 
 .. image:: ../_static/imgs/NerdMiner_v2/NerdMiner64.png
     :align: center
+
+:combo:`red font-bolder:Please note: The address pre-filled in the "Your BTC address" field is for quick testing only. Before starting actual mining, be sure to replace it with your personal` :ref:`Bitcoin wallet address <fnk0103/codes/miner/obtaining_the_btc_receiving_address:obtaining the btc receiving address>` :combo:`red font-bolder:to avoid loss of earnings.`
 
 Management Tool
 ********************************
