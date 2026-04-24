@@ -5,16 +5,30 @@ Preface
 Important Notes
 ******************************
 
-When you first power on the Freenove ESP32 Display, the screen will display a dynamic demo interface, featuring a modern user profile UI. 
+When you first power on the Freenove ESP32 Display, you will see either the **LVGL demo** or the **Freenove Miner firmware**. Regardless of which one appears, you can learn how to operate the display by following the tutorial in the chapters ahead.
 
 :combo:`red font-bolder:Please rest assured! This is not "malicious software" or a "used device."`
+
+LVGL demo
+---------------------------
 
 This is a classic **benchmark/demo program** built on LVGL, a popular open-source embedded graphics library. It serves as an industry-standard tool to evaluate and demonstrate the development board's performance in rendering smooth graphics, handling animations, and supporting responsive touch interactions. You can easily overwrite it by **uploading a new sketch**. When you follow the tutorial to upload your first program, this demo will be automatically erased and replaced.
 
 .. image:: ../_static/imgs/NerdMiner_v2/NerdMiner57.png
     :align: center
 
-All models of the Freenove ESP32 Display are compatible with :ref:`NerdMiner <fnk0103/codes/miner/nerdminer_v2:nerdminer_v2 (freenove miner)>` and :ref:`NMMiner <fnk0103/codes/miner/nmminer:nmminer>`. Although the device does not come with the firmware pre-installed, there's no need to worry. We provide a convenient **web-based online flashing tool** and **a complete flashing tutorial**. There's no need to download any complex software. You can easily complete the flashing process in just a few minutes by selecting the firmware that matches your device model.
+Freenove Miner
+---------------------------
+
+Freenove Miner (https://github.com/Freenove/Freenove_Miner)is an excellent open-source BTC mining firmware designed for ESP32 development boards. Its goal is to allow users to experience the process of “mining a Bitcoin block” using a small piece of hardware. The primary aim of this project is to help more people learn about cryptocurrency mining while owning an aesthetically pleasing desktop accessory.
+
+.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner66.png
+    :align: center
+
+Freenove ESP Web Flasher
+---------------------------
+
+We provide a convenient **web-based online flashing tool** and **a complete flashing tutorial**. There's no need to download any complex software. You can easily complete the flashing process in just a few minutes by selecting the firmware that matches your device model.
 
 .. image:: ../_static/imgs/NerdMiner_v2/NerdMiner58.png
     :align: center
