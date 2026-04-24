@@ -14,7 +14,7 @@ This is a classic **benchmark/demo program** built on LVGL, a popular open-sourc
 .. image:: ../_static/imgs/NerdMiner_v2/NerdMiner57.png
     :align: center
 
-All models of the Freenove ESP32 Display are compatible with :ref:`NerdMiner <fnk0103/codes/miner/nerdminer_v2:nerdminer_v2>` and :ref:`NMMiner <fnk0103/codes/miner/nmminer:nmminer>`. Although the device does not come with the firmware pre-installed, there's no need to worry. We provide a convenient **web-based online flashing tool** and **a complete flashing tutorial**. There's no need to download any complex software. You can easily complete the flashing process in just a few minutes by selecting the firmware that matches your device model.
+All models of the Freenove ESP32 Display are compatible with :ref:`NerdMiner <fnk0103/codes/miner/nerdminer_v2:nerdminer_v2 (freenove miner)>` and :ref:`NMMiner <fnk0103/codes/miner/nmminer:nmminer>`. Although the device does not come with the firmware pre-installed, there's no need to worry. We provide a convenient **web-based online flashing tool** and **a complete flashing tutorial**. There's no need to download any complex software. You can easily complete the flashing process in just a few minutes by selecting the firmware that matches your device model.
 
 .. image:: ../_static/imgs/NerdMiner_v2/NerdMiner58.png
     :align: center

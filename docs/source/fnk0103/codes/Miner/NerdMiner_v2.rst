@@ -2,7 +2,7 @@
 NerdMiner_v2 (Freenove Miner)
 ##############################################################################
 
-This project utilizes Freenove ESP32 Display and NerdMiner_v2 to implement Bitcoin mining. It requires some programming background and a basic understanding of digital currencies.
+This project utilizes Freenove ESP32 Display and NerdMiner_v2 to implement Bitcoin mining. Even if you have no prior knowledge of programming or cryptocurrency, you can easily complete the process by following this tutorial. 
 
 Project Introduction
 ****************************************
