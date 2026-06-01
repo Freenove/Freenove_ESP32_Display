@@ -5,7 +5,7 @@ Chapter 10 TFT Display
 Project 10.1 TFT_Rainbow
 *******************************
 
-Freenove ESP32 Display is available in five different models, each featuring a unique TFT display. This guide applies to all of them. For detailed specifications of each model, please click here.
+Freenove ESP32 Display is available in six different models, each featuring a unique TFT display. This guide applies to all of them. For detailed specifications of each model, please click here.
 
 Component List 
 =================================

@@ -31,7 +31,7 @@ Precautions
 Compatibility Description
 **************************************
 
-At the time of writing this guide, the Freenove ESP32 Display is available in five different models. Although they vary in terms of screen drivers, resolutions, and screen sizes, all of them can be set up using this tutorial to learn how to use NerdMiner_v2.
+At the time of writing this guide, the Freenove ESP32 Display is available in six different models. Although they vary in terms of screen drivers, resolutions, and screen sizes, all of them can be set up using this tutorial to learn how to use NerdMiner_v2.
 
 The official firmware of NerdMiner_v2 is not fully compatible with this product. Therefore, Freenove has conducted secondary development based on it to ensure stable operation.
 

@@ -45,7 +45,7 @@ The sample code provides two codes for different models of Freenove ESP32 Displa
 .. image:: ../_static/imgs/11_TFT_Touch_Calibration/Chapter11_01.png
     :align: center
 
-Sketch_11.1_TFT_Touch_Calibrate_2.8_Inch
+Sketch_11.1_TFT_Touch_Calibrate_2.4_2.8_Inch
 --------------------------------------------------
 
 Install Necessary Libraries
@@ -70,7 +70,7 @@ The following message indicates the successful installation of the library.
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Sketches/Sketch_11.1_TFT_Touch_Calibrate_2.8_Inch/Sketch_11.1_TFT_Touch_Calibrate_2.8_Inch.ino
+.. literalinclude:: ../../../freenove_Kit/Sketches/Sketch_11.1_TFT_Touch_Calibrate_2.4_2.8_Inch/Sketch_11.1_TFT_Touch_Calibrate_2.4_2.8_Inch.ino
    :linenos:
    :language: c
    :dedent:
@@ -80,7 +80,7 @@ Code Explanation
 
 Include the necessary header files.
 
-.. literalinclude:: ../../../freenove_Kit/Sketches/Sketch_11.1_TFT_Touch_Calibrate_2.8_Inch/Sketch_11.1_TFT_Touch_Calibrate_2.8_Inch.ino
+.. literalinclude:: ../../../freenove_Kit/Sketches/Sketch_11.1_TFT_Touch_Calibrate_2.4_2.8_Inch/Sketch_11.1_TFT_Touch_Calibrate_2.4_2.8_Inch.ino
    :linenos:
    :language: c
    :lines: 7-8
@@ -88,7 +88,7 @@ Include the necessary header files.
 
 Create TFT object instance.
 
-.. literalinclude:: ../../../freenove_Kit/Sketches/Sketch_11.1_TFT_Touch_Calibrate_2.8_Inch/Sketch_11.1_TFT_Touch_Calibrate_2.8_Inch.ino
+.. literalinclude:: ../../../freenove_Kit/Sketches/Sketch_11.1_TFT_Touch_Calibrate_2.4_2.8_Inch/Sketch_11.1_TFT_Touch_Calibrate_2.4_2.8_Inch.ino
    :linenos:
    :language: c
    :lines: 15-15
@@ -96,7 +96,7 @@ Create TFT object instance.
 
 Adjust the display direction of the screen.
 
-.. literalinclude:: ../../../freenove_Kit/Sketches/Sketch_11.1_TFT_Touch_Calibrate_2.8_Inch/Sketch_11.1_TFT_Touch_Calibrate_2.8_Inch.ino
+.. literalinclude:: ../../../freenove_Kit/Sketches/Sketch_11.1_TFT_Touch_Calibrate_2.4_2.8_Inch/Sketch_11.1_TFT_Touch_Calibrate_2.4_2.8_Inch.ino
    :linenos:
    :language: c
    :lines: 36-36

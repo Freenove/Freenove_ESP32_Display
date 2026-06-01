@@ -7,7 +7,7 @@ Freenove ESP32 Display
 Freenove ESP32 Display Models
 *****************************************
 
-At the time this tutorial was written, Freenove ESP32 Display is available in five different models. While they may vary in drivers, resolution, or screen size, this guide applies to all of them. Below is a list of the supported models, along with corresponding images:
+At the time this tutorial was written, Freenove ESP32 Display is available in six different models. While they may vary in drivers, resolution, or screen size, this guide applies to all of them. Below is a list of the supported models, along with corresponding images:
 
 .. table:: 
     :class: freenove-ow
@@ -15,31 +15,37 @@ At the time this tutorial was written, Freenove ESP32 Display is available in fi
     +--------------+------------+----------+-------------+
     | Models       | Specifications        | Images      |
     +==============+============+==========+=============+
-    | FNK0103F_2P8 | Size       | 2.8 inch | |Display00| |
+    | FNK0114A_2P4 | Size       | 2.4inch  | |Display00| |
+    +              +------------+----------+             |
+    |              | Resolution | 240x320  |             |
+    +              +------------+----------+             |
+    |              | Driver     | ST7789   |             |
+    +--------------+------------+----------+-------------+
+    | FNK0114B_2P8 | Size       | 2.8inch  | |Display01| |
+    +              +------------+----------+             |
+    |              | Resolution | 240x320  |             |
+    +              +------------+----------+             |
+    |              | Driver     | ST7789   |             |
+    +--------------+------------+----------+-------------+
+    | FNK0114F_2P8 | Size       | 2.8 inch | |Display02| |
     +              +------------+----------+             |
     |              | Resolution | 240x320  |             |
     +              +------------+----------+             |
     |              | Driver     | ILI9341  |             |
     +--------------+------------+----------+-------------+
-    | FNK0103B_2P8 | Size       | 2.8inch  | |Display01| |
+    | FNK0114L_3P2 | Size       | 3.2inch  | |Display03| |
     +              +------------+----------+             |
     |              | Resolution | 240x320  |             |
     +              +------------+----------+             |
     |              | Driver     | ST7789   |             |
     +--------------+------------+----------+-------------+
-    | FNK0103L_3P2 | Size       | 3.2inch  | |Display02| |
-    +              +------------+----------+             |
-    |              | Resolution | 240x320  |             |
-    +              +------------+----------+             |
-    |              | Driver     | ST7789   |             |
-    +--------------+------------+----------+-------------+
-    | FNK0103N_3P5 | Size       | 3.5inch  | |Display03| |
+    | FNK0114N_3P5 | Size       | 3.5inch  | |Display04| |
     +              +------------+----------+             |
     |              | Resolution | 320x480  |             |
     +              +------------+----------+             |
     |              | Driver     | ST7796   |             |
     +--------------+------------+----------+-------------+
-    | FNK0103S_4P0 | Size       | 4.0inch  | |Display04| |
+    | FNK0114S_4P0 | Size       | 4.0inch  | |Display08| |
     +              +------------+----------+             |
     |              | Resolution | 320x480  |             |
     +              +------------+----------+             |
@@ -51,6 +57,7 @@ At the time this tutorial was written, Freenove ESP32 Display is available in fi
 .. |Display02| image:: ../_static/imgs/Freenove_ESP32_Display/Display02.png
 .. |Display03| image:: ../_static/imgs/Freenove_ESP32_Display/Display03.png
 .. |Display04| image:: ../_static/imgs/Freenove_ESP32_Display/Display04.png
+.. |Display08| image:: ../_static/imgs/Freenove_ESP32_Display/Display08.png
 
 Related Knowledge
 ********************************

@@ -5,28 +5,14 @@ Preface
 Important Notes
 ******************************
 
-When you first power on the Freenove ESP32 Display, you will see either the **LVGL demo** or the **Freenove Miner firmware**. Regardless of which one appears, you can learn how to operate the display by following the tutorial in the chapters ahead.
+When you first power on the Freenove ESP32 Display, the screen will display a dynamic demo interface, featuring a modern user profile UI. 
 
 :combo:`red font-bolder:Please rest assured! This is not "malicious software" or a "used device."`
-
-LVGL demo
----------------------------
 
 This is a classic **benchmark/demo program** built on LVGL, a popular open-source embedded graphics library. It serves as an industry-standard tool to evaluate and demonstrate the development board's performance in rendering smooth graphics, handling animations, and supporting responsive touch interactions. You can easily overwrite it by **uploading a new sketch**. When you follow the tutorial to upload your first program, this demo will be automatically erased and replaced.
 
 .. image:: ../_static/imgs/NerdMiner_v2/NerdMiner57.png
     :align: center
-
-Freenove Miner
----------------------------
-
-Freenove Miner (https://github.com/Freenove/Freenove_Miner)is an excellent open-source BTC mining firmware designed for ESP32 development boards. Its goal is to allow users to experience the process of “mining a Bitcoin block” using a small piece of hardware. The primary aim of this project is to help more people learn about cryptocurrency mining while owning an aesthetically pleasing desktop accessory.
-
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner66.png
-    :align: center
-
-Freenove ESP Web Flasher
----------------------------
 
 We provide a convenient **web-based online flashing tool** and **a complete flashing tutorial**. There's no need to download any complex software. You can easily complete the flashing process in just a few minutes by selecting the firmware that matches your device model.
 
@@ -34,18 +20,6 @@ We provide a convenient **web-based online flashing tool** and **a complete flas
     :align: center
 
 **If you have any concerns, please feel free to contact us via** support@freenove.com
-
-Miner
-********************************
-
-This tutorial aims to introduce two excellent Bitcoin Mining projects. Freenove has adapted and validated these projects to ensure stable operation on our Freenove ESP32 Display, and have accordingly compiled detailed usage tutorials.
-
-:combo:`red font-bolder:Disclaimer:`
-
-:red:`Freenove is not the original developer of these projects. All development, maintenance, feature implementation, and commercial licensing are the sole responsibility of their respective official developers.`
-
-.. image:: ../_static/imgs/NerdMiner_v2/NerdMiner29.png
-    :align: center
 
 ESP32-WROOM
 **********************
@@ -86,7 +60,7 @@ The ESP32-WROOM of this product is based on the ESP32-WROOM-32E module with buil
 .. |Preface02| image:: ../_static/imgs/Preface/Preface02.png
 .. |Preface03| image:: ../_static/imgs/Preface/Preface03.png
 
-Freenove ESP32 Display is available in five different models. While they may vary in drivers, resolution, or screen size, this guide applies to all of them. For detailed model specifications, please click :ref:`here <ESP32_Display>`.
+Freenove ESP32 Display is available in six different models. While they may vary in drivers, resolution, or screen size, this guide applies to all of them. For detailed model specifications, please click :ref:`here <ESP32_Display>`.
 
 For datasheet of the ESP32 module, please visit: https://www.espressif.com.cn/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
 
@@ -170,7 +144,7 @@ The connector circuit uses SPI communication and supports high-speed Micro SD ca
 TFT Screen
 ===========================
 
-Freenove ESP32 Display is available in five different models with various TFT screen. This guide applies to all of them. For detailed model specifications, please click :ref:`here <ESP32_Display>`.
+Freenove ESP32 Display is available in six different models with various TFT screen. This guide applies to all of them. For detailed model specifications, please click :ref:`here <ESP32_Display>`.
 
 .. table::
     :class: zebra
