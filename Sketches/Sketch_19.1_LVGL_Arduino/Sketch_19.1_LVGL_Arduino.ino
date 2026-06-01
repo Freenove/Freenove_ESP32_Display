@@ -2,6 +2,7 @@
  *Be sure to read the docs here: https://docs.lvgl.io/master/get-started/platforms/arduino.html  */
 
 #include <lvgl.h>
+#include "../demos/lv_demos.h" 
 #include <TFT_eSPI.h>
 
 /*To use the built-in examples and demos of LVGL uncomment the includes below respectively.
@@ -12,7 +13,7 @@
 /*Change to your screen resolution*/
 #define TFT_DIRECTION 0   //Select TFT Direction (0 - 3)
 
-#if defined(FNK0103B_2P8_240x320_ST7789) || defined(FNK0103F_2P8_240x320_ILI9341)
+#if defined(FNK0114B_2P8_240x320_ST7789) || defined(FNK0114F_2P8_240x320_ILI9341) || defined(FNK0114A_2P4_240x320_ST7789)
   #ifndef _TFT_Touch_H
     #include "TFT_Touch.h"
     #if !defined(_TFT_Touch_H)
@@ -26,10 +27,10 @@
 #define TFT_SCREEN_WIDTH 240
 #define TFT_SCREEN_HEIGHT 320
 TFT_Touch touch = TFT_Touch(DCS, DCLK, DIN, DOUT);
-#elif defined(FNK0103L_3P2_240x320_ST7789)
+#elif defined(FNK0114L_3P2_240x320_ST7789)
 #define TFT_SCREEN_WIDTH 240
 #define TFT_SCREEN_HEIGHT 320
-#elif defined(FNK0103N_3P5_320x480_ST7796) || defined(FNK0103S_4P0_320x480_ST7796)
+#elif defined(FNK0114N_3P5_320x480_ST7796) || defined(FNK0114S_4P0_320x480_ST7796)
 #define TFT_SCREEN_WIDTH 320
 #define TFT_SCREEN_HEIGHT 480
 #endif
@@ -69,7 +70,7 @@ void my_disp_flush( lv_disp_drv_t *disp_drv, const lv_area_t *area, lv_color_t *
 void my_touchpad_read(lv_indev_drv_t *indev_driver, lv_indev_data_t *data) {
   uint16_t touchX, touchY;
   bool touched;
-#if defined(FNK0103B_2P8_240x320_ST7789) || defined(FNK0103F_2P8_240x320_ILI9341)
+#if defined(FNK0114B_2P8_240x320_ST7789) || defined(FNK0114F_2P8_240x320_ILI9341) || defined(FNK0114A_2P4_240x320_ST7789)
   touched = touch.Pressed();
   touchX = touch.X();
   touchY = touch.Y();
@@ -95,7 +96,7 @@ void my_touchpad_read(lv_indev_drv_t *indev_driver, lv_indev_data_t *data) {
     // Serial.print("\tData y ");
     // Serial.println(data->point.y);
   }
-#elif defined(FNK0103L_3P2_240x320_ST7789)
+#elif defined(FNK0114L_3P2_240x320_ST7789)
   touched = tft.getTouch(&touchX, &touchY, 600);
   if (!touched) {
     data->state = LV_INDEV_STATE_REL;
@@ -119,7 +120,7 @@ void my_touchpad_read(lv_indev_drv_t *indev_driver, lv_indev_data_t *data) {
     // Serial.print("\tData y ");
     // Serial.println(data->point.y);
   }
-#elif defined(FNK0103N_3P5_320x480_ST7796) || defined(FNK0103S_4P0_320x480_ST7796)
+#elif defined(FNK0114N_3P5_320x480_ST7796) || defined(FNK0114S_4P0_320x480_ST7796)
   touched = tft.getTouch(&touchX, &touchY, 600);
   if (!touched) {
     data->state = LV_INDEV_STATE_REL;
@@ -168,12 +169,12 @@ void setup()
     /*Set the touchscreen calibration data,
      the actual data for your display can be acquired using
      the Generic -> Touch_calibrate example from the TFT_eSPI library*/
-    #if defined(FNK0103B_2P8_240x320_ST7789) || defined(FNK0103F_2P8_240x320_ILI9341)
+    #if defined(FNK0114B_2P8_240x320_ST7789) || defined(FNK0114F_2P8_240x320_ILI9341) || defined(FNK0114A_2P4_240x320_ST7789)
         touch.setCal(526, 3443, 750, 3377, screenHeight, screenWidth, 1);
-    #elif defined(FNK0103L_3P2_240x320_ST7789)
+    #elif defined(FNK0114L_3P2_240x320_ST7789)
         uint16_t calData[5] = { 286, 3534, 283, 3600, 6 };
         tft.setTouch(calData);
-    #elif defined(FNK0103N_3P5_320x480_ST7796) || defined(FNK0103S_4P0_320x480_ST7796)
+    #elif defined(FNK0114N_3P5_320x480_ST7796) || defined(FNK0114S_4P0_320x480_ST7796)
         uint16_t calData[5] = { 286, 3534, 283, 3600, 6 };
         tft.setTouch(calData);
     #endif
